@@ -1,5 +1,5 @@
 
-using PyCall
+using PyCall  %Package to call Python functions from the Julia language
 
 @pyimport torch
 @pyimport torch.nn as nn
