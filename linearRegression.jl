@@ -1,5 +1,8 @@
 
-using PyCall    '''diff + %package to call Python functions from the Julia language'''
+using PyCall    
+'''diff
++ %package to call Python functions from the Julia language
+'''
 
 @pyimport torch
 @pyimport torch.nn as nn     %neural network package
