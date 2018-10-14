@@ -15,7 +15,7 @@ using PyCall
 x = torch.rand(1000, 100)
 w = torch.rand(100, 1)
 y = x[:matmul](w)
-## tenser multiplication
+## tenser product
 
 ## Defining model and optimizer
 model = nn.Linear(100, 1, bias=false)
