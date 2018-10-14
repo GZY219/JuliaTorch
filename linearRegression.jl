@@ -1,16 +1,16 @@
 
-using PyCall  %Package to call Python functions from the Julia language
+using PyCall    &#x1F34F;%package to call Python functions from the Julia language
 
-@pyimport torch  %nueral network package
-@pyimport torch.nn as nn
+@pyimport torch
+@pyimport torch.nn as nn     &#x1F34F; %neural network package
 @pyimport torch.nn.functional as F
-@pyimport torch.optim as optim
+@pyimport torch.optim as optim    %package implementing various optimization algorithms
 
 ## Generating data
 
 x = torch.rand(1000, 100)
 w = torch.rand(100, 1)
-y = x[:matmul](w)
+y = x[:matmul](w)    %tenser multiplication
 
 ## Defining model and optimizer
 model = nn.Linear(100, 1, bias=false)
