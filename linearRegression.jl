@@ -1,7 +1,7 @@
 
 using PyCall  %Package to call Python functions from the Julia language
 
-@pyimport torch
+@pyimport torch  %nueral network package
 @pyimport torch.nn as nn
 @pyimport torch.nn.functional as F
 @pyimport torch.optim as optim
